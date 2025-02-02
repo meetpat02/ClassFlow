@@ -1,0 +1,67 @@
+/* Login Form Styles */
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+
+    width: fit-content;
+  }
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #333;
+    color: white;
+  }
+  
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    outline: none;
+    border: 1px solid #910303;
+  }
+  
+  .login-form button[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #112c66;
+  }
+  
+  .login-form a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .login-form a:hover {
+    color: #910303;
+  }

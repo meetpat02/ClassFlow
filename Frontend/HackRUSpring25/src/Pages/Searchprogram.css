@@ -1,0 +1,28 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.header {
+    width: max-content;
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.eachsearch {
+    margin-left: 100ps;
+    padding: 10px;
+}
